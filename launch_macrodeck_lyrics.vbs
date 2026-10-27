@@ -1,0 +1,1 @@
+CreateObject("Wscript.Shell").Run "powershell.exe -NoProfile -ExecutionPolicy Bypass -File """ & CreateObject("Wscript.Shell").ExpandEnvironmentStrings("%USERPROFILE%") & "\.macrodeck_lyrics_daemon.ps1""", 0, False
